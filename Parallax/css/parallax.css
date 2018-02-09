@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    margin:0;
+}
+div{
+    height: 500px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+.text {
+    height: 400px;
+}
+body > div:first-child{
+    height: 300px;
+}
+h1{
+    position: relative;
+    top: 20%;
+}
+p{
+    position: relative;
+    top:20% ;
+}
